@@ -1,0 +1,151 @@
+drug,brand,question,verdict,score,confidence,detail,label_file,label_effective
+Amoxapine,Amoxapine,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,ANDA072691.json,20150228
+Amoxapine,Amoxapine,genes,correct,1.0,medium,Every named gene appears on the label.,ANDA072691.json,20150228
+Amoxapine,Amoxapine,contraindications,correct,1.0,medium,3/3 listed contraindications supported by the label.,ANDA072691.json,20150228
+Thioridazine Hydrochloride,Thioridazine Hydrochloride,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,ANDA088004.json,20191230
+Thioridazine Hydrochloride,Thioridazine Hydrochloride,genes,correct,1.0,high,Every named gene appears on the label.,ANDA088004.json,20191230
+Thioridazine Hydrochloride,Thioridazine Hydrochloride,contraindications,correct,1.0,high,6/6 listed contraindications supported by the label.,ANDA088004.json,20191230
+Rasburicase,Elitek,boxed_warning,correct,1.0,high,Boxed warning present; 4/4 topics supported.,BLA103946.json,20230818
+Rasburicase,Elitek,genes,correct,1.0,high,Every named gene appears on the label.,BLA103946.json,20230818
+Rasburicase,Elitek,contraindications,correct,1.0,high,2/2 listed contraindications supported by the label.,BLA103946.json,20230818
+Anakinra,Kineret,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA103950.json,20201230
+Anakinra,Kineret,genes,correct,1.0,low,Every named gene appears on the label.,BLA103950.json,20201230
+Anakinra,Kineret,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,BLA103950.json,20201230
+Alglucosidase Alfa,Lumizyme,boxed_warning,correct,1.0,medium,Boxed warning present; 4/4 topics supported.,BLA125291.json,20231108
+Alglucosidase Alfa,Lumizyme,genes,correct,1.0,medium,Every named gene appears on the label.,BLA125291.json,20231108
+Alglucosidase Alfa,Lumizyme,contraindications,correct,1.0,medium,Correctly said there are none.,BLA125291.json,20231108
+Ofatumumab,KESIMPTA,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA125326.json,20230802
+Ofatumumab,KESIMPTA,genes,correct,1.0,medium,Named no genes (abstained); nothing hallucinated.,BLA125326.json,20230802
+Ofatumumab,KESIMPTA,contraindications,partial,0.5,medium,1/2 listed contraindications supported by the label.,BLA125326.json,20230802
+Elosulfase Alfa,VIMIZIM,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,BLA125460.json,20210121
+Elosulfase Alfa,VIMIZIM,genes,correct,1.0,medium,Every named gene appears on the label.,BLA125460.json,20210121
+Elosulfase Alfa,VIMIZIM,contraindications,correct,1.0,high,Correctly said there are none.,BLA125460.json,20210121
+Obinutuzumab,Gazyva,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,BLA125486.json,20230823
+Obinutuzumab,Gazyva,genes,correct,1.0,low,Every named gene appears on the label.,BLA125486.json,20230823
+Obinutuzumab,Gazyva,contraindications,correct,1.0,medium,2/2 listed contraindications supported by the label.,BLA125486.json,20230823
+Blinatumomab,BLINCYTO,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,BLA125557.json,20230623
+Blinatumomab,BLINCYTO,genes,correct,1.0,medium,Every named gene appears on the label.,BLA125557.json,20230623
+Blinatumomab,BLINCYTO,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,BLA125557.json,20230623
+Avelumab,BAVENCIO,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA761049.json,20231012
+Avelumab,BAVENCIO,genes,correct,1.0,low,Named no genes (abstained); nothing hallucinated.,BLA761049.json,20231012
+Avelumab,BAVENCIO,contraindications,correct,1.0,high,Correctly said there are none.,BLA761049.json,20231012
+Durvalumab,IMFINZI,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA761069.json,20230616
+Durvalumab,IMFINZI,genes,correct,1.0,medium,Every named gene appears on the label.,BLA761069.json,20230616
+Durvalumab,IMFINZI,contraindications,correct,1.0,high,Correctly said there are none.,BLA761069.json,20230616
+Emapalumab-Lzsg,GAMIFANT,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA761107.json,20230621
+Emapalumab-Lzsg,GAMIFANT,genes,correct,1.0,low,Named no genes (abstained); nothing hallucinated.,BLA761107.json,20230621
+Emapalumab-Lzsg,GAMIFANT,contraindications,correct,1.0,high,Correctly said there are none.,BLA761107.json,20230621
+Sacituzumab Govitecan,TRODELVY,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,BLA761115.json,20230209
+Sacituzumab Govitecan,TRODELVY,genes,correct,1.0,medium,Every named gene appears on the label.,BLA761115.json,20230209
+Sacituzumab Govitecan,TRODELVY,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,BLA761115.json,20230209
+Crizanlizumab,ADAKVEO,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA761128.json,20230418
+Crizanlizumab,ADAKVEO,genes,incorrect,0.0,low,None of the named genes appear on the label.,BLA761128.json,20230418
+Crizanlizumab,ADAKVEO,contraindications,correct,1.0,low,Correctly said there are none.,BLA761128.json,20230418
+Luspatercept,Reblozyl,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA761136.json,20230828
+Luspatercept,Reblozyl,genes,partial,0.5,medium,1 of 2 named genes are not on the label.,BLA761136.json,20230828
+Luspatercept,Reblozyl,contraindications,correct,1.0,high,Correctly said there are none.,BLA761136.json,20230828
+Inebilizumab,UPLIZNA,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA761142.json,20201223
+Inebilizumab,UPLIZNA,genes,correct,1.0,medium,Every named gene appears on the label.,BLA761142.json,20201223
+Inebilizumab,UPLIZNA,contraindications,correct,1.0,medium,3/3 listed contraindications supported by the label.,BLA761142.json,20201223
+Nivolumab And Relatlimab-Rmbw,OPDUALAG,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,BLA761234.json,20220318
+Nivolumab And Relatlimab-Rmbw,OPDUALAG,genes,correct,1.0,medium,Named no genes (abstained); nothing hallucinated.,BLA761234.json,20220318
+Nivolumab And Relatlimab-Rmbw,OPDUALAG,contraindications,correct,1.0,high,Correctly said there are none.,BLA761234.json,20220318
+Lecanemab,LEQEMBI,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,BLA761269.json,20230721
+Lecanemab,LEQEMBI,genes,correct,1.0,high,Every named gene appears on the label.,BLA761269.json,20230721
+Lecanemab,LEQEMBI,contraindications,correct,1.0,medium,1/1 listed contraindications supported by the label.,BLA761269.json,20230721
+Teclistamab,TECVAYLI,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,BLA761291.json,20230814
+Teclistamab,TECVAYLI,genes,correct,1.0,low,Every named gene appears on the label.,BLA761291.json,20230814
+Teclistamab,TECVAYLI,contraindications,correct,1.0,high,Correctly said there are none.,BLA761291.json,20230814
+Phenytoin,Dilantin-125,boxed_warning,correct,1.0,medium,Correctly said no boxed warning.,NDA008762.json,20220311
+Phenytoin,Dilantin-125,genes,correct,1.0,high,Every named gene appears on the label.,NDA008762.json,20220311
+Phenytoin,Dilantin-125,contraindications,correct,1.0,high,3/3 listed contraindications supported by the label.,NDA008762.json,20220311
+Busulfan,MYLERAN,boxed_warning,partial,0.5,medium,Boxed warning present; 1/2 topics supported.,NDA009386.json,20221229
+Busulfan,MYLERAN,genes,correct,1.0,low,Every named gene appears on the label.,NDA009386.json,20221229
+Busulfan,MYLERAN,contraindications,partial,0.5,low,1/2 listed contraindications supported by the label.,NDA009386.json,20221229
+Mepivacaine Hydrochloride,Carbocaine,boxed_warning,correct,1.0,medium,Correctly said no boxed warning.,NDA012250.json,20220518
+Mepivacaine Hydrochloride,Carbocaine,genes,partial,0.5,medium,1 of 2 named genes are not on the label.,NDA012250.json,20220518
+Mepivacaine Hydrochloride,Carbocaine,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,NDA012250.json,20220518
+Sulfamethoxazole And Trimethoprim,Bactrim,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA017377.json,20210429
+Sulfamethoxazole And Trimethoprim,Bactrim,genes,correct,1.0,high,Every named gene appears on the label.,NDA017377.json,20210429
+Sulfamethoxazole And Trimethoprim,Bactrim,contraindications,correct,1.0,high,7/7 listed contraindications supported by the label.,NDA017377.json,20210429
+Nortriptyline Hydrochloride,PAMELOR,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,NDA018013.json,20200217
+Nortriptyline Hydrochloride,PAMELOR,genes,correct,1.0,high,Every named gene appears on the label.,NDA018013.json,20200217
+Nortriptyline Hydrochloride,PAMELOR,contraindications,correct,1.0,medium,3/3 listed contraindications supported by the label.,NDA018013.json,20200217
+Piroxicam,Piroxicam,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,NDA018147.json,20230911
+Piroxicam,Piroxicam,genes,correct,1.0,high,Every named gene appears on the label.,NDA018147.json,20230911
+Piroxicam,Piroxicam,contraindications,correct,1.0,high,3/3 listed contraindications supported by the label.,NDA018147.json,20230911
+Desmopressin Acetate,Desmopressin Acetate,boxed_warning,incorrect,0.0,low,Model said no boxed warning; the label has one.,NDA018938.json,20220810
+Desmopressin Acetate,Desmopressin Acetate,genes,correct,1.0,low,Every named gene appears on the label.,NDA018938.json,20220810
+Desmopressin Acetate,Desmopressin Acetate,contraindications,correct,1.0,medium,3/3 listed contraindications supported by the label.,NDA018938.json,20220810
+Pravastatin Sodium,PRAVACHOL,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA019898.json,20201008
+Pravastatin Sodium,PRAVACHOL,genes,correct,1.0,low,Named no genes (abstained); nothing hallucinated.,NDA019898.json,20201008
+Pravastatin Sodium,PRAVACHOL,contraindications,partial,0.5,low,1/2 listed contraindications supported by the label.,NDA019898.json,20201008
+Succimer,Chemet,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA019998.json,20230111
+Succimer,Chemet,genes,correct,1.0,medium,Named no genes (abstained); nothing hallucinated.,NDA019998.json,20230111
+Succimer,Chemet,contraindications,correct,1.0,medium,1/1 listed contraindications supported by the label.,NDA019998.json,20230111
+Rosuvastatin Calcium,Crestor,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA021366.json,20230727
+Rosuvastatin Calcium,Crestor,genes,correct,1.0,medium,Every named gene appears on the label.,NDA021366.json,20230727
+Rosuvastatin Calcium,Crestor,contraindications,correct,1.0,medium,2/2 listed contraindications supported by the label.,NDA021366.json,20230727
+Levothyroxine Sodium,Synthroid,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,NDA021402.json,20221028
+Levothyroxine Sodium,Synthroid,genes,correct,1.0,medium,Named no genes (abstained); nothing hallucinated.,NDA021402.json,20221028
+Levothyroxine Sodium,Synthroid,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,NDA021402.json,20221028
+Duloxetine Hydrochloride,Cymbalta,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,NDA021427.json,20230818
+Duloxetine Hydrochloride,Cymbalta,genes,correct,1.0,medium,Every named gene appears on the label.,NDA021427.json,20230818
+Duloxetine Hydrochloride,Cymbalta,contraindications,correct,1.0,high,2/2 listed contraindications supported by the label.,NDA021427.json,20230818
+Tamoxifen Citrate,SOLTAMOX,boxed_warning,correct,1.0,high,Boxed warning present; 3/3 topics supported.,NDA021807.json,20211129
+Tamoxifen Citrate,SOLTAMOX,genes,partial,0.5,low,1 of 3 named genes are not on the label.,NDA021807.json,20211129
+Tamoxifen Citrate,SOLTAMOX,contraindications,correct,1.0,high,2/2 listed contraindications supported by the label.,NDA021807.json,20211129
+Nilotinib,Tasigna,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,NDA022068.json,20230712
+Nilotinib,Tasigna,genes,correct,1.0,high,Every named gene appears on the label.,NDA022068.json,20230712
+Nilotinib,Tasigna,contraindications,correct,1.0,high,3/3 listed contraindications supported by the label.,NDA022068.json,20230712
+Carglumic Acid,Carbaglu,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA022562.json,20230126
+Carglumic Acid,Carbaglu,genes,correct,1.0,medium,Every named gene appears on the label.,NDA022562.json,20230126
+Carglumic Acid,Carbaglu,contraindications,correct,1.0,high,Correctly said there are none.,NDA022562.json,20230126
+Vincristine Sulfate,Marqibo,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,NDA202497.json,20220322
+Vincristine Sulfate,Marqibo,genes,correct,1.0,medium,Every named gene appears on the label.,NDA202497.json,20220322
+Vincristine Sulfate,Marqibo,contraindications,correct,1.0,high,3/3 listed contraindications supported by the label.,NDA202497.json,20220322
+Cariprazine,Vraylar,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,NDA204370.json,20230920
+Cariprazine,Vraylar,genes,correct,1.0,medium,Named no genes (abstained); nothing hallucinated.,NDA204370.json,20230920
+Cariprazine,Vraylar,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,NDA204370.json,20230920
+Umeclidinium,Incruse Ellipta,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA205382.json,20231213
+Umeclidinium,Incruse Ellipta,genes,correct,1.0,high,Named no genes (abstained); nothing hallucinated.,NDA205382.json,20231213
+Umeclidinium,Incruse Ellipta,contraindications,correct,1.0,high,2/2 listed contraindications supported by the label.,NDA205382.json,20231213
+Ledipasvir And Sofosbuvir,Ledipasvir and Sofosbuvir,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,NDA205834.json,20210625
+Ledipasvir And Sofosbuvir,Ledipasvir and Sofosbuvir,genes,correct,1.0,low,Named no genes (abstained); nothing hallucinated.,NDA205834.json,20210625
+Ledipasvir And Sofosbuvir,Ledipasvir and Sofosbuvir,contraindications,correct,1.0,medium,1/1 listed contraindications supported by the label.,NDA205834.json,20210625
+Purixan,PURIXAN,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA205919.json,20221010
+Purixan,PURIXAN,genes,correct,1.0,high,Every named gene appears on the label.,NDA205919.json,20221010
+Purixan,PURIXAN,contraindications,correct,1.0,medium,Correctly said there are none.,NDA205919.json,20221010
+Elagolix,Orilissa,boxed_warning,correct,1.0,medium,Correctly said no boxed warning.,NDA210450.json,20230605
+Elagolix,Orilissa,genes,correct,1.0,medium,Every named gene appears on the label.,NDA210450.json,20230605
+Elagolix,Orilissa,contraindications,partial,0.5,medium,3/4 listed contraindications supported by the label.,NDA210450.json,20230605
+Encorafenib,BRAFTOVI,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA210496.json,20231018
+Encorafenib,BRAFTOVI,genes,correct,1.0,high,Every named gene appears on the label.,NDA210496.json,20231018
+Encorafenib,BRAFTOVI,contraindications,correct,1.0,high,Correctly said there are none.,NDA210496.json,20231018
+Risperidone,PERSERIS,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,NDA210655.json,20230815
+Risperidone,PERSERIS,genes,correct,1.0,high,Every named gene appears on the label.,NDA210655.json,20230815
+Risperidone,PERSERIS,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,NDA210655.json,20230815
+Pitolisant Hydrochloride,Wakix,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA211150.json,20221222
+Pitolisant Hydrochloride,Wakix,genes,correct,1.0,high,Every named gene appears on the label.,NDA211150.json,20221222
+Pitolisant Hydrochloride,Wakix,contraindications,correct,1.0,high,2/2 listed contraindications supported by the label.,NDA211150.json,20221222
+Inotersen,Tegsedi,boxed_warning,correct,1.0,high,Boxed warning present; 2/2 topics supported.,NDA211172.json,20230110
+Inotersen,Tegsedi,genes,correct,1.0,high,Every named gene appears on the label.,NDA211172.json,20230110
+Inotersen,Tegsedi,contraindications,correct,1.0,medium,3/3 listed contraindications supported by the label.,NDA211172.json,20230110
+Rimegepant Sulfate,NURTEC ODT,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA212728.json,20230420
+Rimegepant Sulfate,NURTEC ODT,genes,correct,1.0,medium,Named no genes (abstained); nothing hallucinated.,NDA212728.json,20230420
+Rimegepant Sulfate,NURTEC ODT,contraindications,correct,1.0,high,1/1 listed contraindications supported by the label.,NDA212728.json,20230420
+Selpercatinib,RETEVMO,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA213246.json,20231128
+Selpercatinib,RETEVMO,genes,correct,1.0,high,Every named gene appears on the label.,NDA213246.json,20231128
+Selpercatinib,RETEVMO,contraindications,correct,1.0,high,Correctly said there are none.,NDA213246.json,20231128
+Belzutifan,WELIREG,boxed_warning,correct,1.0,high,Boxed warning present; 1/1 topics supported.,NDA215383.json,20231214
+Belzutifan,WELIREG,genes,correct,1.0,medium,Every named gene appears on the label.,NDA215383.json,20231214
+Belzutifan,WELIREG,contraindications,correct,1.0,high,Correctly said there are none.,NDA215383.json,20231214
+Odevixibat,BYLVAY,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA215498.json,20230615
+Odevixibat,BYLVAY,genes,correct,1.0,medium,Every named gene appears on the label.,NDA215498.json,20230615
+Odevixibat,BYLVAY,contraindications,correct,1.0,high,Correctly said there are none.,NDA215498.json,20230615
+Elacestrant,ORSERDU,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA217639.json,20231121
+Elacestrant,ORSERDU,genes,correct,1.0,high,Every named gene appears on the label.,NDA217639.json,20231121
+Elacestrant,ORSERDU,contraindications,correct,1.0,high,Correctly said there are none.,NDA217639.json,20231121
+Leniolisib,Joenja,boxed_warning,correct,1.0,high,Correctly said no boxed warning.,NDA217759.json,20230329
+Leniolisib,Joenja,genes,correct,1.0,high,Every named gene appears on the label.,NDA217759.json,20230329
+Leniolisib,Joenja,contraindications,correct,1.0,medium,Correctly said there are none.,NDA217759.json,20230329
